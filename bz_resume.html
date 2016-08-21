@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta name="generator" content="pandoc" />
+  <meta name="author" content="Brian Zambrano" />
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 36px;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #000;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+  }
+  a:hover, a:active {
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="name" class="header">Brian Zambrano</h1>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">2427 Copper Crest Ln.</td>
+<td align="right">(415) 816-5775</td>
+</tr>
+<tr class="even">
+<td align="left">Ft. Collins, CO 80528</td>
+<td align="right"><a href="mailto:brianz@gmail.com">brianz@gmail.com</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>I'm a software engineer and architect with a wide technical breadth and deep understanding of many systems. My background has led me to cloud-based SAAS application architecture, design and scalability. I have strong attention to detail, excellent verbal and written skills, and am driven to produce powerful, high quality, user-friendly software. For the past 15 years my primary programming language and ecosystem has been Python, however I enjoy and am capable of jumping into different languages and systems.</p>
+<p><br />
+My recent focus is building microservices with Docker on top of Amazon Web Services.</p>
+<h2 id="technical-skills">Technical Skills</h2>
+<hr />
+<table>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Primary Languages</strong></td>
+<td>Python, SQL, JavaScript/ES6, Shell scripting (sed, awk, sh, make)</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Other languages</strong></td>
+<td>Objective-C/C, Ruby, Go, Elixir</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Databases</strong></td>
+<td>MySQL, Postgres, MongoDB, Redis, Elasticsearch, DynamoDB</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Frameworks/systems</strong></td>
+<td>Django, Flask, Docker, Django Rest Framework, nginx, Serverless,</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td>uwsgi, RabbitMQ, React, jQuery</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>AWS services</strong></td>
+<td>EC2, ECS, RDS, Elasticache, Lambda, API Gateway, Kinesis, SNS,</td>
+</tr>
+<tr class="odd">
+<td align="left"></td>
+<td>SQS, S3 VPC, CloudFormation, ELB</td>
+</tr>
+</tbody>
+</table>
+<h2 id="professional-experience">Professional Experience</h2>
+<hr />
+<p><strong>Clearcare, Inc.</strong> (San Francisco, CA)<br />
+<em>Lead Architect</em> (6/14 - Present)</p>
+<ul>
+<li>Initiated and led movement from a monolithic Django application into a microservice architecture</li>
+<li>Authored open-source Python service framework: <a href="https://github.com/clearcare/servant" class="uri">https://github.com/clearcare/servant</a></li>
+<li>Designed Docker-based infrastructure on top of the AWS ECS platform for production system</li>
+<li>Led the migration to a Docker-based development stack which allowed new developers to get set up and productive within minutes</li>
+<li>Implemented a payment service based on <code>servant</code>, allowing customers to automatically bill clients which resulting in significant increase in revenue for Clearcare</li>
+<li>Devised and built a full logging system using <code>Fluentd</code></li>
+</ul>
+<p><strong>Intertrust, Inc.</strong> (Sunnyvale, CA)<br />
+<em>Senior Software Engineer</em> (11/13 – 6/14)</p>
+<ul>
+<li>Moved engineering organization from individual/localized developer environments to a single Vagrant system provisioned with Ansible, drastically reducing time developers spend setting up systems</li>
+<li>Developed and led Git branching strategy, eliminating previous code freezes during release cycles</li>
+<li>Instigated and wrote foundation code for new unit-testing methodologies using py.test and Mock</li>
+<li>Developed and write building blocks for Chef to produce a common set of configuration management recipes across different environments and the development VM (Vagrant)</li>
+<li>Work on all aspects of the Django server code, which services the kabuto.com single page application and various mobile apps</li>
+</ul>
+<p><strong>Eventbrite, Inc.</strong> (San Francisco, CA)<br />
+<em>Senior Software Engineer</em> (11/09 – 11/13)</p>
+<ul>
+<li>Started and led initial move from Eventbrite’s custom web stack to new Django codebase, back-porting existing database models, login cookies and other components ensuring new and old pages worked side-by-side.</li>
+<li>Designed and built a horizontally scalable, real-time/dynamic recommendation system based on MongoDB, using Eventbrite’s social graph and Facebook connections; work presented at MongoSV: http://bit.ly/bz-mongosv-2010 and SF MongoDB Meetup: http://bit.ly/BZMDBMeetup</li>
+<li>Led transition from Subversion to Git, designing and training engineering team on branching, merging and release strategy</li>
+<li>Initiated and designed platform for next generation RESTful API utilizing Django Rest Framework and a service oriented architecture, completely decoupling the API layer from the Eventbrite service layer</li>
+<li>Built an engineering documentation system using Sphinx, Git and Nginx</li>
+</ul>
+<p><strong>RoastLog, LLC</strong><br />
+<em>Founder and CEO</em> (4/09 – present)</p>
+<ul>
+<li>Conceptualized and built RoastLog, a software and hardware system for coffee roasters to record and manage coffee roasting data and green bean inventory</li>
+<li>Work with hired contractor to design and build a custom hardware device which digitizes temperature readings from thermocouples and communicates via serial or Bluetooth connections</li>
+<li>Lead the strategic and technical vision of company, which consists of myself and a co-founder whom I recruited</li>
+<li>RoastLog currently has over 50 paying customers across four continents and won Best New Product at the Specialty Coffee Association of America’s annual conference in 2010.</li>
+</ul>
+<p><strong>Nominum, Inc.</strong> (Redwood City, CA)<br />
+<em>Senior Software Engineer</em> (03/08 – 10/09)</p>
+<ul>
+<li>Developed and defined features for a Django-based centralized web administration product, EAC (Engineering Administration Console)</li>
+<li>Designed an NX redirection opt-out module for EAC which acts as the central point of authority for customers’ DNS servers</li>
+<li>Developed an implemented an auto archiving statistics collection module that gathers metrics from any connected Nominum engine which provided customers with custom charts in multiple formats.</li>
+</ul>
+<p><strong>IronPort Systems (a Cisco business unit)</strong> (San Bruno, CA)<br />
+<em>Software Engineer, Anti-Spam Content Analysis</em> (7/05 – 03/08)</p>
+<ul>
+<li>Implemented and contributed to the architecture of IronPort’s automatic rule discovery system</li>
+<li>Developed new data structures and algorithms allowing rule discovery system to identify most frequent/effective patterns from millions of lesser occurring patterns in a matter of seconds, a performance gain of two orders of magnitude</li>
+<li>Data mined corpus of email messages to identify frequent patterns for use in new rule discovery algorithms</li>
+<li>Awarded a Cisco Individual Achievement award for successes in rule discovery system</li>
+<li>Designed a Proportional-Integral-Derivative sampling system for tools which rely on a steady flow of email, assuring these systems a given volume of mail over a given time period</li>
+<li>Designed and implemented new web user interface for the corpus, resulting in a dramatic speed up in the classification of mail due to workflow and display improvements</li>
+</ul>
+<p><strong>eBay, Inc.</strong> (San Jose, CA)<br />
+<em>Quality Assurance Engineer, eBay API</em> (2/01 – 6/02) and (6/03 – 7/04)</p>
+<ul>
+<li>Collaborated in the design and implementation of a Java test automation harness</li>
+<li>Designed and wrote test harness' API which was used from Jython by QA Engineers</li>
+<li>Tested the eBay API through manual and automated processes in support of each public release</li>
+<li>Developed Python scripts to automate feature test cases as well as load and performance testing</li>
+<li>Wrote test plans, documented bugs and aided technical writers to support 3rd-party developers (customers)</li>
+</ul>
+<p><strong>GO.com</strong> (Sunnyvale, CA)<br />
+<em>QA Engineer</em> (3/00 – 2/01)</p>
+<ul>
+<li>Wrote Perl and Python scripts to find, identify, and remove low quality pages (spam) in the searchable web index to ensure a high quality of search results</li>
+<li>Responsible for the quality of the web index (250,000 pages) during each index refresh</li>
+</ul>
+<h2 id="education">Education</h2>
+<hr />
+<table>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>B.S. in Computer Science</strong></td>
+<td align="left">May 2005</td>
+</tr>
+<tr class="even">
+<td align="left">San Francisco State University</td>
+<td align="left">San Francisco, CA</td>
+</tr>
+</tbody>
+</table>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>B.S. in Materials Engineering</strong></td>
+<td align="left">June 1997</td>
+</tr>
+<tr class="even">
+<td align="left">California Polytechnic State University</td>
+<td align="left">San Luis Obispo, CA</td>
+</tr>
+</tbody>
+</table>
+<h3 id="educational-experience">Educational Experience</h3>
+<hr />
+<p><strong>San Francisco State University</strong> (San Francisco, CA)<br />
+<em>Lecturer, Python Programming (Spring 2008)</em> (2/08 – 5/08)</p>
+<ul>
+<li>Develop brand new course curriculum, examples and projects for introductory Python course</li>
+<li>Lecture, assign lab work and assist students with lab assignments</li>
+</ul>
+<p><strong>San Francisco State University</strong> (San Francisco, CA)<br />
+<em>Research Assistant, NetBEAMS project</em> (2/05 – 7/05)</p>
+<ul>
+<li>Wrote J2ME data acquisition software using Agilent’s JDDAC libraries to communicate with ocean water sensor and upload real-time measurements to sensor server</li>
+<li>Designed serial I/O libraries for communication between mobile phone and water sensor</li>
+</ul>
+<p><strong>San Francisco State University</strong> (San Francisco, CA)<br />
+<em>Lecturer, Intro C++ Lab</em> (2/05 – 5/05)</p>
+<ul>
+<li>Designed course curriculum for a hands-on introductory C++ programming lab</li>
+<li>Lectured, assigned lab work and assisted students with assignments</li>
+</ul>
+</body>
+</html>
