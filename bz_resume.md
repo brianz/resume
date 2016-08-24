@@ -30,7 +30,7 @@ Ft. Collins, CO 80528                                     <brianz@gmail.com>
 I'm a software engineer and architect with a wide technical breadth and deep understanding of many
 systems.  My background has led me to cloud-based SAAS application architecture, design and
 scalability. I have strong attention to detail, excellent verbal and written skills, and am driven
-to produce powerful, high quality, user-friendly software. For the past 15 years my primary
+to produce powerful, high-quality, user-friendly software. For the past 15 years my primary
 programming language and ecosystem has been Python, however I enjoy and am capable of jumping into
 different languages and systems.
 
@@ -62,13 +62,12 @@ My recent focus is building microservices with Docker on top of Amazon Web Servi
 _Lead Architect_ (6/14 - Present)
 
 - Initiated and led movement from a monolithic Django application into a microservice architecture
-- Authored open-source Python service framework:
-  <https://github.com/clearcare/servant>
+- Authored open-source Python service framework: <https://github.com/clearcare/servant>
 - Designed Docker-based infrastructure on top of the AWS ECS platform for production system
 - Led the migration to a Docker-based development stack which allowed new developers to get set up
   and productive within minutes
 - Implemented a payment service based on `servant`, allowing customers to automatically bill
-  clients which resulting in significant increase in revenue for Clearcare
+  clients which resulted in significant increase in revenue for Clearcare
 - Devised and built a full logging system using `Fluentd`
 
 
