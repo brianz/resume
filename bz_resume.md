@@ -59,10 +59,10 @@ My recent focus is building microservices with Docker on top of Amazon Web Servi
 
 **Clearcare, Inc.** (San Francisco, CA)
 \
-_Lead Architect_ (6/14 - Present)
+_Lead Architect_ (6/14 - 8/14)
 
 - Initiated and led movement from a monolithic Django application into a microservice architecture
-- Authored open-source Python service framework: <https://github.com/clearcare/servant>
+- Authored open-source Python service framework: <https://github.com/brianz/servant>
 - Designed Docker-based infrastructure on top of the AWS ECS platform for production system
 - Led the migration to a Docker-based development stack which allowed new developers to get set up
   and productive within minutes
