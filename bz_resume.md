@@ -95,7 +95,7 @@ _Senior Software Engineer_ (11/09 – 11/13)
   pages worked side-by-side.
 - Designed and built a horizontally scalable, real-time/dynamic recommendation system based on
   MongoDB, using Eventbrite’s social graph and Facebook connections; work presented at MongoSV:
-  http://bit.ly/bz-mongosv-2010 and SF MongoDB Meetup: http://bit.ly/BZMDBMeetup
+  http://bit.ly/bz-recos-slides and SF MongoDB Meetup: http://bit.ly/BZMDBMeetup
 - Led transition from Subversion to Git, designing and training engineering team on branching,
   merging and release strategy
 - Initiated and designed platform for next generation RESTful API utilizing Django Rest Framework and
