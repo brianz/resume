@@ -101,6 +101,9 @@ _Senior Software Engineer_ (11/09 – 11/13)
 - Initiated and designed platform for next generation RESTful API utilizing Django Rest Framework and
   a service oriented architecture, completely decoupling the API layer from the Eventbrite service
   layer
+- Conceptualized and   built "event cache", a constantly updating data store with up-to-the-second
+  denormalized data for Eventbrite's live events, using pluggable storage backends (Redis or
+  MongoDB)
 - Built an engineering documentation system using Sphinx, Git and Nginx
 
 
