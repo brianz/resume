@@ -21,8 +21,8 @@ Brian Zambrano {#name .header }
 ===================================
 
 -----------------------                         ----------------------------
-2427 Copper Crest Ln.                                         (415) 816-5775
-Ft. Collins, CO 80528                                     <brianz@gmail.com>
+1221 Forest Hills Ln.                                         (415) 816-5775
+Ft. Collins, CO 80524                                     <brianz@gmail.com>
 -----------------------                         ----------------------------
 
 *  *  *  *
@@ -30,13 +30,15 @@ Ft. Collins, CO 80528                                     <brianz@gmail.com>
 I'm a software engineer and architect with a wide technical breadth and deep understanding of many
 systems.  My background has led me to cloud-based SAAS application architecture, design and
 scalability. I have strong attention to detail, excellent verbal and written skills, and am driven
-to produce powerful, high-quality, user-friendly software. For the past 15 years my primary
+to produce powerful, high-quality, user-friendly software. For the past 15+ years my primary
 programming language and ecosystem has been Python, however I enjoy and am capable of jumping into
 different languages and systems.
 
-\
+<br />
 
-My recent focus is building microservices with Docker on top of Amazon Web Services.
+I have been working with Amazon Web Services (AWS) consistently since 2009. My recent focus has 
+been building microservices and serverless architectures on top of AWS and leveraging available 
+AWS services.
 
 
 ## Technical Skills
@@ -48,14 +50,27 @@ My recent focus is building microservices with Docker on top of Amazon Web Servi
 **Other languages**     Objective-C/C, Ruby, Go, Elixir
 **Databases**           MySQL, Postgres, MongoDB, Redis, Elasticsearch, DynamoDB
 **Frameworks/systems**  Django, Flask, Docker, Django Rest Framework, nginx, Serverless,
-                        uwsgi, RabbitMQ, React, jQuery
+                        uwsgi, RabbitMQ, Kubernetes, React, jQuery
 **AWS services**        EC2, ECS, RDS, Elasticache, Lambda, API Gateway, Kinesis, SNS,
-                        SQS, S3 VPC, CloudFormation, ELB
+                        SQS, S3 VPC, CloudFormation, ELB, Route53, IAM, Lex, Alexa
 ----------------------  ----------------------------------------------------------------
 
 ## Professional Experience
 
 * * * *
+
+**Very, LLC.** (Chattanooga, TN)
+\
+_Engineer_ (9/16 - present)
+
+- Working with various clients to deliver high quality and well tested digital products in a timely
+  manner. Projects have ranged from data science and ETL pipelines to Amazon Alexa skills and web
+  applications.
+- Leading the adoption of AWS within the company, tutoring colleagues and giving training on different AWS
+  services and techniques with a heavy bias towards serverless architectures
+- Authored Amazon Alexa Skill for client, delivering first version in two weeks which included
+  an open source Python library, Lazysusan: [documentation](http://lazysusan.readthedocs.io/en/stable/)
+  and [source code](https://github.com/verypossible/lazysusan)
 
 **Clearcare, Inc.** (San Francisco, CA)
 \
@@ -67,7 +82,8 @@ _Lead Architect_ (6/14 - 8/16)
 - Led the migration to a Docker-based development stack which allowed new developers to get set up
   and productive within minutes
 - Implemented a payment service based on `servant`, allowing customers to automatically bill
-  clients which resulted in significant increase in revenue for Clearcare
+  clients which currently processes over $1M/day. Built as a microservice using separate EC2 instances 
+  and RDS, completely isolated from main web application.
 - Devised and built a full logging system using `Fluentd`
 
 
@@ -81,7 +97,7 @@ _Senior Software Engineer_ (11/13 – 6/14)
 - Developed and led Git branching strategy, eliminating previous code freezes during release cycles
 - Instigated and wrote foundation code for new unit-testing methodologies using py.test and Mock
 - Developed and write building blocks for Chef to produce a common set of configuration management
-  recipes across different environments and the development VM (Vagrant)
+  recipes across different AWS environments and the development VM (Vagrant)
 - Work on all aspects of the Django server code, which services the kabuto.com single page
   application and various mobile apps
 
@@ -191,21 +207,14 @@ California Polytechnic State University        San Luis Obispo, CA
 **San Francisco State University** (San Francisco, CA)
 \
 _Lecturer, Python Programming (Spring 2008)_ (2/08 – 5/08)
-
-- Develop brand new course curriculum, examples and projects for introductory Python course
-- Lecture, assign lab work and assist students with lab assignments
+<br />
 
 **San Francisco State University** (San Francisco, CA)
 \
 _Research Assistant, NetBEAMS project_ (2/05 – 7/05)
-
-- Wrote J2ME data acquisition software using Agilent’s JDDAC libraries to communicate with ocean
-  water sensor and upload real-time measurements to sensor server
-- Designed serial I/O libraries for communication between mobile phone and water sensor
+<br />
 
 **San Francisco State University** (San Francisco, CA)
 \
 _Lecturer, Intro C++ Lab_ (2/05 – 5/05)
-
-- Designed course curriculum for a hands-on introductory C++ programming lab
-- Lectured, assigned lab work and assisted students with assignments
+<br />

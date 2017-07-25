@@ -64,9 +64,7 @@
       text-decoration: none;
   }
   a:hover, a:active {
-      color: #FFFFFF;
-      text-decoration: none;
-      text-shadow: 1px 1px 1px #333;
+      text-decoration: underline;
   }
   
   hr {
@@ -83,19 +81,19 @@
 <table>
 <tbody>
 <tr class="odd">
-<td align="left">2427 Copper Crest Ln.</td>
+<td align="left">1221 Forest Hills Ln.</td>
 <td align="right">(415) 816-5775</td>
 </tr>
 <tr class="even">
-<td align="left">Ft. Collins, CO 80528</td>
+<td align="left">Ft. Collins, CO 80524</td>
 <td align="right"><a href="mailto:brianz@gmail.com">brianz@gmail.com</a></td>
 </tr>
 </tbody>
 </table>
 <hr />
-<p>I'm a software engineer and architect with a wide technical breadth and deep understanding of many systems. My background has led me to cloud-based SAAS application architecture, design and scalability. I have strong attention to detail, excellent verbal and written skills, and am driven to produce powerful, high-quality, user-friendly software. For the past 15 years my primary programming language and ecosystem has been Python, however I enjoy and am capable of jumping into different languages and systems.</p>
-<p><br />
-My recent focus is building microservices with Docker on top of Amazon Web Services.</p>
+<p>I'm a software engineer and architect with a wide technical breadth and deep understanding of many systems. My background has led me to cloud-based SAAS application architecture, design and scalability. I have strong attention to detail, excellent verbal and written skills, and am driven to produce powerful, high-quality, user-friendly software. For the past 15+ years my primary programming language and ecosystem has been Python, however I enjoy and am capable of jumping into different languages and systems.</p>
+<p><br /></p>
+<p>I have been working with Amazon Web Services (AWS) consistently since 2009. My recent focus has been building microservices and serverless architectures on top of AWS and leveraging available AWS services.</p>
 <h2 id="technical-skills">Technical Skills</h2>
 <hr />
 <table>
@@ -118,7 +116,7 @@ My recent focus is building microservices with Docker on top of Amazon Web Servi
 </tr>
 <tr class="odd">
 <td align="left"></td>
-<td>uwsgi, RabbitMQ, React, jQuery</td>
+<td>uwsgi, RabbitMQ, Kubernetes, React, jQuery</td>
 </tr>
 <tr class="even">
 <td align="left"><strong>AWS services</strong></td>
@@ -126,12 +124,19 @@ My recent focus is building microservices with Docker on top of Amazon Web Servi
 </tr>
 <tr class="odd">
 <td align="left"></td>
-<td>SQS, S3 VPC, CloudFormation, ELB</td>
+<td>SQS, S3 VPC, CloudFormation, ELB, Route53, IAM, Lex, Alexa</td>
 </tr>
 </tbody>
 </table>
 <h2 id="professional-experience">Professional Experience</h2>
 <hr />
+<p><strong>Very, LLC.</strong> (Chattanooga, TN)<br />
+<em>Engineer</em> (9/16 - present)</p>
+<ul>
+<li>Working with various clients to deliver high quality and well tested digital products in a timely manner. Projects have ranged from data science and ETL pipelines to Amazon Alexa skills and web applications.</li>
+<li>Leading the adoption of AWS within the company, tutoring colleagues and giving training on different AWS services and techniques with a heavy bias towards serverless architectures</li>
+<li>Authored Amazon Alexa Skill for client, delivering first version in two weeks which included an open source Python library, Lazysusan: <a href="http://lazysusan.readthedocs.io/en/stable/">documentation</a> and <a href="https://github.com/verypossible/lazysusan">source code</a></li>
+</ul>
 <p><strong>Clearcare, Inc.</strong> (San Francisco, CA)<br />
 <em>Lead Architect</em> (6/14 - 8/16)</p>
 <ul>
@@ -139,7 +144,7 @@ My recent focus is building microservices with Docker on top of Amazon Web Servi
 <li>Authored open-source Python service framework: <a href="https://github.com/brianz/servant" class="uri">https://github.com/brianz/servant</a></li>
 <li>Designed Docker-based infrastructure on top of the AWS ECS platform for production system</li>
 <li>Led the migration to a Docker-based development stack which allowed new developers to get set up and productive within minutes</li>
-<li>Implemented a payment service based on <code>servant</code>, allowing customers to automatically bill clients which resulted in significant increase in revenue for Clearcare</li>
+<li>Implemented a payment service based on <code>servant</code>, allowing customers to automatically bill clients which currently processes over $1M/day. Built as a microservice using separate EC2 instances and RDS, completely isolated from main web application.</li>
 <li>Devised and built a full logging system using <code>Fluentd</code></li>
 </ul>
 <p><strong>Intertrust, Inc.</strong> (Sunnyvale, CA)<br />
@@ -148,7 +153,7 @@ My recent focus is building microservices with Docker on top of Amazon Web Servi
 <li>Moved engineering organization from individual/localized developer environments to a single Vagrant system provisioned with Ansible, drastically reducing time developers spend setting up systems</li>
 <li>Developed and led Git branching strategy, eliminating previous code freezes during release cycles</li>
 <li>Instigated and wrote foundation code for new unit-testing methodologies using py.test and Mock</li>
-<li>Developed and write building blocks for Chef to produce a common set of configuration management recipes across different environments and the development VM (Vagrant)</li>
+<li>Developed and write building blocks for Chef to produce a common set of configuration management recipes across different AWS environments and the development VM (Vagrant)</li>
 <li>Work on all aspects of the Django server code, which services the kabuto.com single page application and various mobile apps</li>
 </ul>
 <p><strong>Eventbrite, Inc.</strong> (San Francisco, CA)<br />
@@ -230,22 +235,10 @@ My recent focus is building microservices with Docker on top of Amazon Web Servi
 <h3 id="educational-experience">Educational Experience</h3>
 <hr />
 <p><strong>San Francisco State University</strong> (San Francisco, CA)<br />
-<em>Lecturer, Python Programming (Spring 2008)</em> (2/08 – 5/08)</p>
-<ul>
-<li>Develop brand new course curriculum, examples and projects for introductory Python course</li>
-<li>Lecture, assign lab work and assist students with lab assignments</li>
-</ul>
+<em>Lecturer, Python Programming (Spring 2008)</em> (2/08 – 5/08) <br /></p>
 <p><strong>San Francisco State University</strong> (San Francisco, CA)<br />
-<em>Research Assistant, NetBEAMS project</em> (2/05 – 7/05)</p>
-<ul>
-<li>Wrote J2ME data acquisition software using Agilent’s JDDAC libraries to communicate with ocean water sensor and upload real-time measurements to sensor server</li>
-<li>Designed serial I/O libraries for communication between mobile phone and water sensor</li>
-</ul>
+<em>Research Assistant, NetBEAMS project</em> (2/05 – 7/05) <br /></p>
 <p><strong>San Francisco State University</strong> (San Francisco, CA)<br />
-<em>Lecturer, Intro C++ Lab</em> (2/05 – 5/05)</p>
-<ul>
-<li>Designed course curriculum for a hands-on introductory C++ programming lab</li>
-<li>Lectured, assigned lab work and assisted students with assignments</li>
-</ul>
+<em>Lecturer, Intro C++ Lab</em> (2/05 – 5/05) <br /></p>
 </body>
 </html>

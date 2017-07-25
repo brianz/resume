@@ -55,9 +55,7 @@ a {
     text-decoration: none;
 }
 a:hover, a:active {
-    color: #FFFFFF;
-    text-decoration: none;
-    text-shadow: 1px 1px 1px #333;
+    text-decoration: underline;
 }
 
 hr {
