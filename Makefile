@@ -3,14 +3,14 @@ input = /data/bz_resume.md
 fromformat = markdown
 
 html:
-	docker run -v `pwd`:/data $(image) pandoc -s \
+	docker run -it -v `pwd`:/data $(image) pandoc -s \
 		--from $(fromformat) \
 		--to html \
 		-H /data/style.css \
 		-o /data/bz_resume.html $(input)
 
 tex:
-	docker run -v `pwd`:/data $(image) pandoc -s \
+	docker run -it -v `pwd`:/data $(image) pandoc -s \
 		--from $(fromformat) \
 		--to context \
 		--wrap preserve \
@@ -18,11 +18,11 @@ tex:
 		-o /data/bz_resume.tex $(input)
 
 context:
-	docker run -v `pwd`:/data $(image) \
+	docker run -it -v `pwd`:/data $(image) \
 		context /data/bz_resume.tex
 
 pdf:
-	docker run -v `pwd`:/data $(image) pandoc -s \
+	docker run -it -v `pwd`:/data $(image) pandoc -s \
 		--from $(fromformat) \
 		--to context \
 		--template /data/resume-template.tex \

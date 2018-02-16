@@ -28,32 +28,29 @@ Ft. Collins, CO 80524                                     <brianz@gmail.com>
 *  *  *  *
 
 I'm a software engineer and architect with a wide technical breadth and deep understanding of many
-systems.  My background has led me to cloud-based SAAS application architecture, design and
-scalability. I have strong attention to detail, excellent verbal and written skills, and am driven
-to produce powerful, high-quality, user-friendly software. For the past 15+ years my primary
-programming language and ecosystem has been Python, however I enjoy and am capable of jumping into
-different languages and systems.
-
-<br />
+systems.  My background has led me to cloud-based SAAS application architecture, design, and 
+scalability. I have high attention to detail, excellent verbal and written skills, and am driven
+to produce robust, high-quality, user-friendly software. For the past 15+ years, my primary
+programming language and ecosystem has been Python. However, I enjoy and am capable of jumping into
+different languages and ecosystems.  
 
 I have been working with Amazon Web Services (AWS) consistently since 2009. My recent focus has 
-been building microservices and serverless architectures on top of AWS and leveraging available 
-AWS services.
+been cloud architecture on AWS using microservices, containers and the vast array of AWS services.
 
 
 ## Technical Skills
 
 *  *  *  *
 
-----------------------  ----------------------------------------------------------------
+----------------------  -----------------------------------------------------------------
 **Primary Languages**   Python, SQL, JavaScript/ES6, Shell scripting (sed, awk, sh, make)
-**Other languages**     Objective-C/C, Ruby, Go, Elixir
-**Databases**           MySQL, Postgres, MongoDB, Redis, Elasticsearch, DynamoDB
+**Other languages**     Objective-C/C, Elixir, Go, Java
+**Databases**           Postgres, MySQL, MongoDB, Redis, Elasticsearch, DynamoDB
 **Frameworks/systems**  Django, Flask, Docker, Django Rest Framework, nginx, Serverless,
                         uwsgi, RabbitMQ, Kubernetes, React, jQuery
 **AWS services**        EC2, ECS, RDS, Elasticache, Lambda, API Gateway, Kinesis, SNS,
-                        SQS, S3 VPC, CloudFormation, ELB, Route53, IAM, Lex, Alexa
-----------------------  ----------------------------------------------------------------
+                        SQS, S3 VPC, CloudFormation, ELB, Route53, IAM, Lex, Alexa, etc.
+----------------------  -----------------------------------------------------------------
 
 ## Professional Experience
 
@@ -106,21 +103,21 @@ _Senior Software Engineer_ (11/13 – 6/14)
 \
 _Senior Software Engineer_ (11/09 – 11/13)
 
-- Started and led initial move from Eventbrite’s custom web stack to new Django codebase,
-  back-porting existing database models, login cookies and other components ensuring new and old
-  pages worked side-by-side.
-- Designed and built a horizontally scalable, real-time/dynamic recommendation system based on
-  MongoDB, using Eventbrite’s social graph and Facebook connections; work presented at MongoSV:
-  http://bit.ly/bz-recos-slides and SF MongoDB Meetup: http://bit.ly/BZMDBMeetup
-- Led transition from Subversion to Git, designing and training engineering team on branching,
-  merging and release strategy
-- Initiated and designed platform for next generation RESTful API utilizing Django Rest Framework and
-  a service oriented architecture, completely decoupling the API layer from the Eventbrite service
-  layer
+- Helped to design and build a horizontally scalable, Hadoop-based recommendation system 
+  using Eventbrite’s social graph and Facebook connections. Java MapReduce jobs built custom
+  recommendations for every individual based on prior event attendance. Patent US13408776 pending.
+- Contributed to next-generation analytic systems for event organizers using Java MapReduce jobs
+  to pre-calculate materialized views of data, which previously was being served from
+  under-performing SQL queries
 - Conceptualized and   built "event cache", a constantly updating data store with up-to-the-second
   denormalized data for Eventbrite's live events, using pluggable storage backends (Redis or
   MongoDB)
-- Built an engineering documentation system using Sphinx, Git and Nginx
+- Initiated and designed platform for next generation RESTful API utilizing Django Rest Framework and
+  a service oriented architecture, completely decoupling the API layer from the Eventbrite service
+  layer
+- Started and led initial move from Eventbrite’s custom web stack to new Django codebase,
+  back-porting existing database models, login cookies and other components ensuring new and old
+  pages worked side-by-side.
 
 
 **RoastLog, LLC**
@@ -184,20 +181,23 @@ _Quality Assurance Engineer, eBay API_ (2/01 – 6/02) and (6/03 – 7/04)
   searchable web index to ensure a high quality of search results
 - Responsible for the quality of the web index (250,000 pages) during each index refresh
 
+## Publications
+
+Zambrano, B. (To be published, 2018) ["Serverless Design Patterns and Best Practices"](
+https://www.packtpub.com/application-development/serverless-design-patterns-and-best-practices) 
+Packt Publishing
 
 ## Education
 
 * * * *
 
---------------------------------------------   ------------------------
-**B.S. in Computer Science**                   May 2005
-San Francisco State University                 San Francisco, CA
---------------------------------------------   ------------------------
+-----------------------------------------      -------------------------------------------
+**B.S. in Computer Science**                   **B.S. in Materials Engineering**
+San Francisco State University                 California Polytechnic State University
+San Francisco, CA                              San Luis Obispo, CA
+May 2005                                       June 1997
+-----------------------------------------      -------------------------------------------
 
---------------------------------------------   ------------------------
-**B.S. in Materials Engineering**              June 1997
-California Polytechnic State University        San Luis Obispo, CA
---------------------------------------------   ------------------------
 
 
 ### Educational Experience
