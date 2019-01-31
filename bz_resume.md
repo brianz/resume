@@ -29,7 +29,7 @@ Ft. Collins, CO 80524                                     <brianz@gmail.com>
 
 I'm a software engineer and architect with a wide technical breadth and deep understanding of many
 systems.  My background has led me to cloud-based SAAS application architecture, design, and 
-scalability. I have high attention to detail, excellent verbal and written skills, and am driven
+scalability. I have high attention to detail, excellent communication skills, and am driven
 to produce robust, high-quality, user-friendly software. For the past 15+ years, my primary
 programming language and ecosystem has been Python. However, I enjoy and am capable of jumping into
 different languages and ecosystems.  
@@ -44,12 +44,12 @@ been cloud architecture on AWS using microservices, containers and the vast arra
 
 ----------------------  -----------------------------------------------------------------
 **Primary Languages**   Python, SQL, JavaScript/ES6, Shell scripting (sed, awk, sh, make)
-**Other languages**     Objective-C/C, Elixir, Go, Java
-**Databases**           Postgres, MySQL, MongoDB, Redis, Elasticsearch, DynamoDB
+**Other languages**     Objective-C/C, Elm, Elixir, Go, Java
+**Databases**           Postgres, MySQL, Redshift, MongoDB, Redis, DynamoDB, Elasticsearch
 **Frameworks/systems**  Django, Flask, Docker, Django Rest Framework, nginx, Serverless,
-                        uwsgi, RabbitMQ, Kubernetes, React, jQuery
-**AWS services**        EC2, ECS, RDS, Elasticache, Lambda, API Gateway, Kinesis, SNS,
-                        SQS, S3 VPC, CloudFormation, ELB, Route53, IAM, Lex, Alexa, etc.
+                        uwsgi, RabbitMQ, Kubernetes, React, Elm
+**AWS services**        EC2, ECS, RDS, Elasticache, Lambda, API Gateway, Redshift, Kinesis,
+                        SNS, SQS, S3 VPC, CloudFormation, ELB, Route53, IAM, Lex, Alexa, etc.
 ----------------------  -----------------------------------------------------------------
 
 ## Professional Experience
@@ -58,7 +58,7 @@ been cloud architecture on AWS using microservices, containers and the vast arra
 
 **Very, LLC.** (Chattanooga, TN)
 \
-_Engineer_ (9/16 - present)
+_Cloud Practice Lead_ (9/16 - present)
 
 - Working with various clients to deliver high quality and well tested digital products in a timely
   manner. Projects have ranged from data science and ETL pipelines to Amazon Alexa skills and web
@@ -183,9 +183,9 @@ _Quality Assurance Engineer, eBay API_ (2/01 – 6/02) and (6/03 – 7/04)
 
 ## Publications
 
-Zambrano, B. (To be published, 2018) ["Serverless Design Patterns and Best Practices"](
-https://www.packtpub.com/application-development/serverless-design-patterns-and-best-practices) 
-Packt Publishing
+Zambrano, Brian [**Serverless Design Patterns and Best Practices**](
+https://www.amazon.com/Serverless-Design-Patterns-Best-Practices-ebook/dp/B0773M31S5)
+, Packt Publishing (April 2018)
 
 ## Education
 
